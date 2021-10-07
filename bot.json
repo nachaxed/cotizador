@@ -1,0 +1,4 @@
+const o ={
+    name: "Gulfmaster G600",
+    seguro: "parcial"; 
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <link href="estilo.css" rel= "stylesheet" type="text/css">
+    <title>ejercicio3</title>
+    </head>
+    <body>
+        <div class="lear">
+           <header>Cotizador de seguros</header>
+                <label action="submit" method="GET" accept-charset="UTF-8">
+                 <label>Marca</label> 
+                    <select>
+                     <option class="avion1" value="Gulfstream G500"> Gulfstream G500</option>
+                     <option class="avion2" value="Gulfstream G600"> Gulfstream G600</option>
+                     <option class="avion3" value="Gulfstream G650ER">Gulfstream G650ER</option>
+                     <option class="avion4" value="Dassault Falcon 8X">Dassault Falcon 8X</option>
+                    </select><br><br>
+                 <label>Tipo de seguro</label>
+                 <select id="seguros">
+                    <option value="parcial">parcial</option>
+                    <option value="total">total</option>
+                </select><br><br>       
+                <label> Opción de pago</label><br><br>
+                <input type="checkbox" id="cbox1" value="first_checkbox">contado</input><br>
+                <input type="checkbox" id="cbox1" value="second_chechbox">transferencia bancaria</input><br>
+                <input type="checkbox" required name ="acepta" value="1">acepta terminos y condiciones</input><br>
+                <!-- <input class="enviar" type="submit"></input> -->
+            <button class="enviar" type="submit">enviar</button>  
+        </div>
+        <script src ="./ejercicio3.js"> </script>
+    </body>
+</html>
